@@ -16,6 +16,14 @@ def divide(self, a, b):
 
  def square_root(self, x):
   return math.sqrt(x)
+  
+  def divide(self, a, b):
+
+    if b == 0:
+
+    raise ValueError("Cannot divide by zero.")
+
+return a / b
 
 # You need to uncomment the above function and complete its implementation to add the square root feature.
 
